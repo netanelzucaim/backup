@@ -3,7 +3,7 @@
 # Create the directory if it doesn't exist
 current_date=$(date)
 # Define the repository details
-github_repo="https://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@github.com/netanelzucaim/backup"
+github_repo="git@github.com:netanelzucaim/backup.git"
 
 # Initialize Git repository if not already initialized
 if [ ! -d .git ]; then
