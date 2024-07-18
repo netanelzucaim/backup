@@ -22,7 +22,7 @@ fi
 
 # Example: Add and commit directory
 git add -A
-git commit -m "backup date $current_date"
+git commit -m "backup date ent_date"
 
 # Push changes to GitHub using SSH
 git push -u origin master
