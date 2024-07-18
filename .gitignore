@@ -1,0 +1,20 @@
+# Ignore compiled binaries
+*.exe
+*.o
+*.so
+
+# Ignore logs and temporary files
+logs/
+temp/
+
+# Ignore configuration files that may be specific to your environment
+config/*.conf
+
+# Ignore sensitive information (e.g., passwords)
+secret.txt
+backup.sh
+
+# Ignore directories like node_modules or vendor (depending on your project)
+node_modules/
+vendor/
+
