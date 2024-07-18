@@ -21,7 +21,7 @@ if git remote -v | grep -q "origin"; then
 fi
 
 # Example: Add and commit directory
-git add .
+git add -A
 git commit -m "backup date $current_date"
 
 # Push changes to GitHub using SSH
