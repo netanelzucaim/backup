@@ -25,5 +25,5 @@ git add -A
 git commit -m "backup date ent_date"
 
 # Push changes to GitHub using SSH
-git push -u origin master
+git push 
 
